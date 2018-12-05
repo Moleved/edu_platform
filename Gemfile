@@ -3,6 +3,8 @@ git_source(:github) { |rep| "https://github.com/#{rep}.git" }
 
 ruby '2.5.0'
 
+gem 'activeadmin', '~> 1.4', '>= 1.4.3'
+gem 'cancancan', '~> 2.3'
 gem 'coffee-rails', '~> 4.2'
 gem 'devise', '~> 4.5'
 gem 'jbuilder', '~> 2.5'
