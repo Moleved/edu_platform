@@ -1,0 +1,11 @@
+detectors:
+  IrresponsibleModule:
+    enabled: false
+  NilCheck:
+    enabled: false
+  FeatureEnvy:
+    enabled: false
+exclude_paths:
+- db/migrate
+- config
+- spec
