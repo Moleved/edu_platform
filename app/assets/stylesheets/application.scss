@@ -17,3 +17,7 @@
 @import "bootstrap";
 @import 'bootflat';
 @import 'font-awesome';
+
+.navbar-expand {
+  border-radius: 0 !important;
+}

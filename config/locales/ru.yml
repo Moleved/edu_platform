@@ -1,4 +1,4 @@
-en:
+ru:
   title: 'EduPlatform'
   login: 'Login'
   logout: 'Logout'
@@ -10,5 +10,3 @@ en:
     password: 'Password'
     pass_confirmation: 'Password Confirmation'
     remember_me: 'Remember Me'
-    forgot_pass: 'Forgot your password?'
-    reset_pass: 'Reset password'
