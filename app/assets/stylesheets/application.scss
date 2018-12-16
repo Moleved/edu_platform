@@ -16,7 +16,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import 'bootflat';
-@import 'font-awesome';
+@import "froala_editor.min";
+@import "froala_style.min";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import 'subject';
 
 .navbar-expand {
   border-radius: 0 !important;

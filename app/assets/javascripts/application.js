@@ -15,4 +15,5 @@
 //= require jquery
 //= require bootstrap
 //= require icheck.min
+//= require froala_editor.min.js
 //= require_tree .

@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
-  resources :faculties
-  root to: 'home#index'
+  resources :subject_contents, only: %i[create update destroy]
+  resources :subject, only: %i[index show]
+  resources :department, only: %i[index show]
+  resources :faculties, only: %i[index show]
+
+  get :editor, to: 'subject#editor'
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
@@ -11,4 +15,7 @@ Rails.application.routes.draw do
     sign_out: 'logout',
     password: 'secret'
   }
+  root to: 'home#index'
 end
+
+
